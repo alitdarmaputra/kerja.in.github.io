@@ -295,16 +295,11 @@ body {
 
 /* Explore */
 .explore {
-  padding: 100px 0;
-}
-
-/*.explore .choose {
-  height: 100vh;
-  background-image: url("../asset/wavy-bg-down.png");
+  padding: 100px 0 100px 0;
+  background-image: url(../asset/background-explore1.png);
   background-repeat: no-repeat;
-  background-size: 100% 70%;
-  background-position: center top;
-}*/
+
+}
 
 .explore .categories h2 {
   font-size: 2em;
@@ -483,7 +478,68 @@ body {
   color: #1dbf73;
   text-decoration: none;
 }
+.choose{
+  position: relative;
+}
 
+.choose h2{
+  text-align: center;
+}
+
+.choose-wrapper{
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 0 20px 0;
+}
+
+.option{
+  background-color: rgb(238, 238, 238);
+  width: 350px;
+  height: 450px;
+  border-radius: 40px;
+  padding-top: 50px;
+  box-shadow: 0px 2px 5px black;
+  margin-bottom: 50px;
+}
+
+.option img{
+  display: block;
+  width: 300px;
+}
+
+.option.job img{
+  margin: 0 auto;
+}
+
+.option.employee img{
+  margin: 80px auto 0 auto;
+}
+
+.option button{
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  background-color: rgb(255, 147, 165);
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  border: 0;
+}
+
+.option.job button{
+  margin: 50px auto;
+}
+
+.option.employee button{
+  margin: 50px auto;
+}
+
+.option button:hover{
+  background-color: rgb(155, 45, 63);
+}
 /* Animation */
 
 @keyframes left-animation {
