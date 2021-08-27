@@ -580,6 +580,11 @@ body {
   background-position: center;
 }
 
+.review-content p{
+  margin: 18px 9px;
+  font-size: 12px;
+}
+
 .image-cover.rev1{
   background-image: url(../asset/review-1.jpg);
 }
@@ -590,6 +595,30 @@ body {
 
 .image-cover.rev3{
   background-image: url(../asset/review-3.jpg);
+}
+
+.footer {
+  background-color: #363636;
+}
+
+.footer .max-width {
+  /*height: 150px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer .footer-left p {
+  font-size: 2em;
+  padding: 20px 0;
+}
+
+.footer .footer-right .fab {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 10px;
 }
 
 /* Animation */
