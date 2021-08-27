@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 html {
@@ -615,6 +616,9 @@ body {
   padding: 20px 0;
 }
 
+.footer .footer-center{
+  margin-left: 10px;
+}
 .footer .footer-right .fab {
   color: #fff;
   font-size: 2em;
