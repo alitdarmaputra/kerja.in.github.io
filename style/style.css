@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 html {
@@ -295,16 +296,10 @@ body {
 
 /* Explore */
 .explore {
-  padding: 100px 0;
-}
-
-/*.explore .choose {
-  height: 100vh;
-  background-image: url("../asset/wavy-bg-down.png");
+  padding: 100px 0 100px 0;
+  background-image: url(../asset/background-explore1.png);
   background-repeat: no-repeat;
-  background-size: 100% 70%;
-  background-position: center top;
-}*/
+}
 
 .explore .categories h2 {
   font-size: 2em;
@@ -482,6 +477,152 @@ body {
   padding: 0 5px;
   color: #1dbf73;
   text-decoration: none;
+}
+.choose{
+  position: relative;
+}
+
+.choose h2{
+  text-align: center;
+}
+
+.choose-wrapper{
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 0 20px 0;
+}
+
+.option{
+  background-color: rgb(238, 238, 238);
+  width: 350px;
+  height: 450px;
+  border-radius: 40px;
+  padding-top: 50px;
+  box-shadow: 0px 2px 5px black;
+  margin-bottom: 50px;
+}
+
+.option img{
+  display: block;
+  width: 300px;
+}
+
+.option.job img{
+  margin: 0 auto;
+}
+
+.option.employee img{
+  margin: 80px auto 0 auto;
+}
+
+.option button{
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  background-color: rgb(255, 147, 165);
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  border: 0;
+}
+
+.option.job button{
+  margin: 50px auto;
+}
+
+.option.employee button{
+  margin: 50px auto;
+}
+
+.option button:hover{
+  background-color: rgb(155, 45, 63);
+}
+
+.review h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.review-wrapper{
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.review-content{
+  height: 450px;
+  width: 300px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.review-content .red-bg{
+  background-color: #ff2e2e;
+  width: 100%;
+  height: 170px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.image-cover{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: -80px auto 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.review-content p{
+  margin: 18px 9px;
+  font-size: 12px;
+}
+
+.image-cover.rev1{
+  background-image: url(../asset/review-1.jpg);
+}
+
+.image-cover.rev2{
+  background-image: url(../asset/review-2.jpg);
+}
+
+.image-cover.rev3{
+  background-image: url(../asset/review-3.jpg);
+}
+
+.footer {
+  background-color: #363636;
+}
+
+.footer .max-width {
+  /*height: 150px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer .footer-left p {
+  font-size: 2em;
+  padding: 20px 0;
+}
+
+.footer .footer-center{
+  margin-left: 10px;
+}
+.footer .footer-right .fab {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 10px;
 }
 
 /* Animation */
